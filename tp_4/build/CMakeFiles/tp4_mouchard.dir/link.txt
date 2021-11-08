@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/tp4_mouchard.dir/test/test_mouchard.cpp.o  -o tp4_mouchard  -lpthread -lstdc++ -lm 

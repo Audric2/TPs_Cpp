@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/complexe.hpp
+iostream
+-
+mouchard.hpp
+-
+
+../src/mouchard.hpp
+iostream
+-
+type_traits
+-
+utility
+-
+
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_4/test/test_mouchard.cpp
+iostream
+-
+complexe.hpp
+-
+

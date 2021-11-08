@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_1/src/vecteur.cpp
+vecteur.hpp
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_1/src/vecteur.hpp
+
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_1/src/vecteur.hpp
+iostream
+-
+cmath
+-
+vector
+-
+

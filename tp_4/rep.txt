@@ -1,0 +1,23 @@
+I
+1)constructeur ad hoc 1
+2)constructeur ad hoc 1
+3)constructeur copie 1
+4)constructeur mouvement 1
+5)affectation copie 1
+6)const ad hoc 1 + affect move 1
+
+II
+1)20 const par defaut
+2)20 affect move + 20 const ad hoc
+3)10 affect copie + 10 const defaut
+4)20 const defaut + 10 const ad hoc + 10 aff copie + 10 aff mov
+5)30 const defaut + 20 const ad hoc + 10 aff copie + 20 aff mov
+6)10 const copie
+
+III
+1)20 const par defaut
+2)20 affect move + 20 const ad hoc
+3)10 affect copie + 10 const defaut
+4)20 const defaut + 10 const ad hoc + 10 aff move
+5)30 const defaut + 20 aff move + 20 const ad hoc
+6)10 const copie

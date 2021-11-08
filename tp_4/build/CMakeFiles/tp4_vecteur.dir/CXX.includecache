@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/complexe.hpp
+iostream
+-
+mouchard.hpp
+-
+
+../src/mouchard.hpp
+iostream
+-
+type_traits
+-
+utility
+-
+
+../src/vecteur.hpp
+complexe.hpp
+-
+stdexcept
+-
+
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_4/test/test_vecteur.cpp
+algorithm
+-
+deque
+-
+vecteur.hpp
+-
+
