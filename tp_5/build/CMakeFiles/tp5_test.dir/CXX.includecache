@@ -6,7 +6,43 @@
 
 #IncludeRegexTransform: 
 
+../src/Echantillon.hpp
+vector
+-
+algorithm
+-
+Valeur.hpp
 ../src/Valeur.hpp
+
+../src/Valeur.hpp
+string
+-
+
+../src/classe.hpp
+Valeur.hpp
+../src/Valeur.hpp
+
+../src/echantillon.hpp
+vector
+-
+algorithm
+-
+Valeur.hpp
+../src/Valeur.hpp
+
+../src/histogramme.hpp
+algorithm
+-
+iostream
+-
+set
+-
+map
+-
+classe.hpp
+../src/classe.hpp
+echantillon.hpp
+../src/echantillon.hpp
 
 /mnt/d/Audric/Informatique/ZZ3/C++/tp_5/test/catch.hpp
 TargetConditionals.h
@@ -441,6 +477,14 @@ catch.hpp
 /mnt/d/Audric/Informatique/ZZ3/C++/tp_5/test/catch.hpp
 cmath
 -
+random
+-
 Valeur.hpp
 /mnt/d/Audric/Informatique/ZZ3/C++/tp_5/test/Valeur.hpp
+Echantillon.hpp
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_5/test/Echantillon.hpp
+classe.hpp
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_5/test/classe.hpp
+histogramme.hpp
+-
 
