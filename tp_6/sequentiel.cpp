@@ -1,5 +1,5 @@
 // Entetes //---------------------------------------------------------------------------------------
-#include <nombre.hpp>
+#include "nombre.hpp"
 
 // Variables globales //----------------------------------------------------------------------------
 unsigned compteur = 0;
@@ -12,7 +12,7 @@ int main() {
 	std::vector<Nombre> b(taille);
 	std::vector<Nombre> c(taille);
 
-	for (unsigned i = 0; i<taille; ++i) a[i] = ++compteur;
+	for_sequentiel(0,taille, [&] (unsigned i) { a[i] = ++compteur; } );
 	for (unsigned i = 0; i<taille; ++i) b[i] = ++compteur;
 
 	std::cout << "a = " << a << std::endl;
@@ -22,7 +22,9 @@ int main() {
 	for (unsigned i = 0; i<taille; ++i) c[i] = a[i]*b[i];
 	
 	std::cout << "c = " << c << std::endl;
-
+	
+	
+	
 	return 0;
 }
 

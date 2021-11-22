@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/tp6_test.dir/test/catch.cpp.o CMakeFiles/tp6_test.dir/test/tp6_test.cpp.o  -o tp6_test  -lpthread -lstdc++ -lm 

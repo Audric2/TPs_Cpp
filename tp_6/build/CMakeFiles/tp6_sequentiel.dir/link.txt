@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/tp6_sequentiel.dir/src/sequentiel.cpp.o  -o tp6_sequentiel  -lpthread -lstdc++ -lm 

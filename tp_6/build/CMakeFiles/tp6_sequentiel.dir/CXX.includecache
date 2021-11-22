@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_6/src/nombre.hpp
+chrono
+-
+iostream
+-
+thread
+-
+vector
+-
+
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_6/src/sequentiel.cpp
+nombre.hpp
+/mnt/d/Audric/Informatique/ZZ3/C++/tp_6/src/nombre.hpp
+
