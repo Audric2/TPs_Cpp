@@ -97,4 +97,12 @@ void for_sequentiel(unsigned x,unsigned y,T f){
 	}
 }
 
+template <int N,typename T>
+void for_parallele(unsigned x,unsigned y,T f){
+	std::thread t[N];
+	unsigned taille = y-x;
+	for (unsigned i = 0; i<N; ++i) t[i] = std::thread(for_sequentiel<T>,i*taille/N, (i+1)*taille/N,f);
+	for (unsigned i = 0; i<N; ++i) t[i].join();
+}
+
 #endif
